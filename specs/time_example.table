@@ -1,0 +1,8 @@
+table_name("time_example")
+description("Returns current time")
+schema([
+    Column("hour", INTEGER, "The current hour"),
+    Column("minutes", INTEGER, "The current minutes past the hour"),
+    Column("seconds", INTEGER, "The current seconds past the minute"),
+])
+implementation("time@genTimeExample")

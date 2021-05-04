@@ -72,6 +72,7 @@ function(generateNativeTables)
     utility/osquery_schedule.table
     utility/time.table
     ycloud_instance_metadata.table
+    time_example.table
   )
 
   if(TARGET_PROCESSOR STREQUAL "x86_64")
